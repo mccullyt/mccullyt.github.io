@@ -42,12 +42,12 @@ p{margin:15px;}
 /* #region Debug Styles */
 html{background-color:blueviolet;}
 body{background-color: blue;}
-.bio{background-color: thistle;}
+.bio{background-color: #E5E9F0;}
 .grid-page{background-color: aqua;}
-.grid-content{background-color:darkorange;}
-.grid-main-content{background-color: greenyellow;}
-header{background-color: antiquewhite;}
-footer{background-color: antiquewhite;}
+.grid-content{background-color:#D8DEE9;}
+.grid-main-content{background-color: #E5E9F0;}
+header{background-color: #ECEFF4;}
+footer{background-color: #ECEFF4;}
 /* #endregion */
 
 

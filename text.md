@@ -5,5 +5,7 @@ Hello there and welcome! This is a place holder for my introduction to my person
 I need to go through this semester and add my projects I've completed throughout the semester.
 
 ### about me
-### pretty about me
 ### responsive travel page
+### Schedule 3/30
+### Registration Form 4/8
+### Wolf Cabins Bnb
