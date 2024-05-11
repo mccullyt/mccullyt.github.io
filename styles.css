@@ -37,6 +37,15 @@
 
 p{margin:15px;}
 
+header{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header > div {display:flex; justify-content: space-around;}
+
+header > h1 {text-align: end; padding-right: 15px;}
+
 
 
 /* #region Debug Styles */
@@ -46,6 +55,7 @@ body{background-color: blue;}
 .grid-page{background-color: aqua;}
 .grid-content{background-color:#D8DEE9;}
 .grid-main-content{background-color: #E5E9F0;}
+.nav-button{background-color: peru;}
 header{background-color: #ECEFF4;}
 footer{background-color: #ECEFF4;}
 /* #endregion */
@@ -57,7 +67,8 @@ footer{background-color: #ECEFF4;}
     .grid-main-content{grid-template-columns: minmax(0, 1fr); text-align: center;}
     .bio{grid-column: 1/span 1;}
     .mock-img{width: 100%; height:100%; grid-row: 1/span 2;}
-    .project{display:grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr;}   
+    .project{display:grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr;}
+    header > h1 {text-align: center; }   
 
     
 }
