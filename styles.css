@@ -176,7 +176,9 @@ header{border-bottom: 3px solid black;}
 
 .bio-img{box-shadow: 00 15px 10px rgba(0,0,0, .25);;}
 
-
+.project-img:hover{background-color:#D8DEE9 }
+.project a:first-child:visited{color: black;} 
+.project a:visited{color:grey;}
 
 footer {
     border-top: 3px solid black;
@@ -209,10 +211,7 @@ footer{background-color: #ECEFF4;}
     .project{display:grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr;}
     header > h1 {text-align: center; }   
     .nav-button{box-shadow: none;}
-    .nav-button > p {display: none;}
-    
-
-    
+    .nav-button > p {display: none;}    
 }
 
 @media (max-width: 550px){
