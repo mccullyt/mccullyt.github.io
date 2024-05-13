@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<!-- 
+    Timothy McCully
+    index.html
+    registration assignment
+    4/2/24
+ -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+
+	<title>Advising Appt Form</title>
+
+	<!--Additional elements for browsers and robots go here goes here-->
+
+</head>
+
+<body>
+	<!--Elements visible to users go here-->
+    
+    <div class="container"> 
+        <h2>Advising Appointment</h2>
+        <form method="get" action="thankyou.html">
+            <fieldset>  <!--Contact information-->
+                <legend>Contact Information</legend>
+                <label for="fname">
+                    Name:
+                    <input autofocus type="text" name="fname" id="fname" required placeholder="First Name">
+                </label>
+                <label for="lname">
+                    Last Name:
+                    <input type="text" name="lname" id="lname"  required placeholder="Lasst Name">
+                </label>
+                <label for="email">
+                    Email:
+                    <input type="email" name="email" id="email"  required placeholder="Email"> 
+                </label>
+                
+                
+            </fieldset>
+            <fieldset class ="reservation">  <!--Reservation Request-->
+                <legend>Reservation Request</legend>
+                <select name="instructors" id="instructors" required>
+                    <option value="">Instructor</option>
+                    <option value="kirsten Markely">Kirsten Markly</option>
+                    <option value="jackson lewis">Jackson Lewis</option>
+                    <option value="tiffany ford">Tiffany Ford</option>
+                </select>
+                <select name="months" id="months" required>
+                    <option value="">Month</option>
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+                <input type="number" name="day" id="day" required placeholder="Day"  min="1" max="31">
+                <label for="am">
+                    AM
+                    <input type="radio" name="time" id="am" value="am" required>
+                </label>
+                <label for="pm">
+                    PM
+                    <input type="radio" name="time" id="pm" value="pm"  required>
+                </label>
+                
+            </fieldset>
+
+            <fieldset class ="classes">  <!--Chose classes-->
+                <legend>Classes You Want to Take Next Semester: </legend>
+                
+                <label for="java">
+                    Java
+                    <input type="radio" name="java" id="java">
+                </label>
+                <label for="csharp">
+                    C#
+                    <input type="radio" name="charp" id="csharp">
+                </label>
+                <label for="webdev">
+                    Web Dev
+                    <input type="radio" name="webdev" id="webdev">
+                </label>
+                <label for="databases">
+                    Databases
+                    <input type="radio" name="databases" id="databases" >
+                </label>
+                <label for="systems">
+                    System Analysis & Design
+                    <input type="radio" name="systems" id="systems">
+                </label>
+                
+            </fieldset>
+
+            <fieldset class="addinfo">
+                <legend>Additional Info</legend>
+                <textarea name="addinfo" id="addinfo" placeholder="Any additional info" cols="100"></textarea>
+            </fieldset>
+
+            <input class="submit" type="submit" value="Submit">
+            
+        </form>
+    </div>
+</body>
+
+</html>

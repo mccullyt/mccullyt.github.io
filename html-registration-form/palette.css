@@ -1,0 +1,54 @@
+:root{
+    /* Nord Palletes from https://www.nordtheme.com/docs/colors-and-palettes  */
+    /* Polar Night */
+    --nord0:  #2E3440;
+    --nord01: #3B4252;
+    --nord02: #434C5E;
+    --nord03: #4C566A;
+    
+    /* Snow Storm */
+    --nord04: #D8DEE9;
+    --nord05: #E5E9F0;
+    --nord06: #ECEFF4;
+
+    /* Frost */
+    --nord07: #8FBCBB;
+    --nord08: #88C0D0;
+    --nord09: #81A1C1;
+    --nord10: #5E81AC;
+
+    /* Aurora */
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCB8B;
+    --nord14: #A3BE8C;
+    --nord15: #B48EAD;
+
+
+    /* Transparent Nord Palletes */
+    /* Polar Night */
+    --transnord0:  rgba(46, 52, 64, .9);
+    --transnord01: rgba(59, 66, 82, .9);
+    --transnord02: rgba(67, 76, 94, .9);
+    --transnord03: rgba(76, 86, 106, .9);
+    
+    /* Snow Storm */
+    --transnord04: rgba(216, 222, 233, .9);
+    --transnord05: rgba(229, 233, 240, .9);
+    --transnord06: rgba(236, 239, 244, .9);
+
+    /* Frost */
+    --transnord07: rgba(143, 188, 187, .9);
+    --transnord08: rgba(136, 192, 208, .9);
+    --transnord09: rgba(129, 161, 193, .9);
+    --transnord10: rgba(94, 129, 172, .9);
+
+    /* Aurora */
+    --transnord11: rgba(191, 97, 106, .9);
+    --transnord12: rgba(208, 135, 112, .9);
+    --transnord13: rgba(235, 203, 139, .9);
+    --transnord14: rgba(163, 190, 140, .9);
+    --transnord15: rgba(180, 142, 173, .9);
+
+
+}
