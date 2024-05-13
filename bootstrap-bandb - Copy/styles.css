@@ -1,0 +1,30 @@
+/* 
+    Timothy McCully
+    4/22/2024
+    styles.css
+    Bootstrap bed and breakfast
+
+*/
+
+li{
+    list-style-type: none;
+}
+
+.carousel-img{
+    width: 100%;
+    height:800px;
+    object-fit: cover;
+}
+
+.short-page-container{
+    min-height: 100vh;
+}
+
+.short-page-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
+}
+
+
