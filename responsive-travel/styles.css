@@ -1,0 +1,90 @@
+/* 
+Developer: Timothy McCully
+File Name: styles.css
+Assignment: Responsive Travel
+Date: 2/26/2024
+*/
+
+
+*{
+  box-sizing:border-box;
+}
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #2E3440;
+}
+
+header{
+  text-align: center;
+  background-color:#4C566A;
+  color:white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container{
+  width:90%;
+  margin:auto;
+  max-width: 1200px;
+  background-color: #fff;
+}
+
+.cols {
+  padding: 50px 10px 5px 10px;
+  line-height: 1.5;
+  margin: auto;
+}
+
+.column1{
+  float:left;
+  width:39%;
+  padding:10px;
+
+}
+
+.column2{
+  float:left;
+  width:39%;
+  padding:10px;
+
+}
+
+.sidebar{
+  width: 22%;
+	float: left;
+}
+
+.sideNav{
+	padding: 10px;
+	font-size: 1.3em;
+	margin: 0 0 15px 0;
+}
+
+.topbar{
+  width: 100%;
+}
+
+.topNav{
+  display: block;
+  float:left;
+	padding: 10px;
+	font-size: 1.3em;
+	margin: 0 0 15px 0;
+}
+
+.topNav li{
+  display: block;
+  float:left;
+  padding:10px;
+}
+
+.medium{
+  display:none;
+}
+
+.clearfix:after { content: ""; display: table;clear: both; }

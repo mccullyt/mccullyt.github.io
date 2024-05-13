@@ -1,0 +1,34 @@
+/* 
+Developer: Timothy McCully
+File Name: responsiveStyles.css
+Assignment: Responsive Travel
+Date: 2/26/2024
+*/
+
+
+.column1, .column2 {
+    width:100%;
+}
+
+.sidebar{
+    display: none;
+}
+
+.full{
+    display:none;
+}
+
+.medium{
+    display:block;
+}
+
+
+
+@media screen and (max-width: 576px){
+    .medium{
+        display:none;
+    }
+    .small {
+        display:block;
+    }
+}

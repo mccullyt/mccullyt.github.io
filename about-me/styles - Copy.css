@@ -1,0 +1,56 @@
+ /* Developer and File Information
+    Developer: Tim McCully
+    Date: 1/29/2024
+    Class:  Webdev 1, CIS-130-W01, SP24
+    Assignment: Pretty About You
+    File Name: styles.css */
+
+    a:link{
+        color:#8FBCBB
+    }
+
+    a:visited{
+        color:#5E81AC
+    }
+    
+    article{
+        background-color: #3b4252;
+    }
+
+    body{
+        background-color: #2e3440;
+        
+
+        /* height: 700px; You must set a specified height */
+        /* background-position: center; Center the image */
+        /* background-repeat: no-repeat; Do not repeat the image */
+        /* background-size: cover; Resize the background image to cover the entire container */
+        
+        color: #e5e9f0;
+    }
+ 
+    nav{
+        background-color: #3b4252;
+    }
+
+    .article-title{
+        font-size: 20px;
+    }
+
+    .profile-image{
+        border-radius: 50%;
+        width:250px;
+    }
+
+    .thumbnail{
+        box-shadow: 5px 10px #2e3440;
+        width:250px;
+    }
+
+    .text-centered{
+        text-align: center;
+    }
+
+    #main-header{
+        font-size: 36px;
+    }
