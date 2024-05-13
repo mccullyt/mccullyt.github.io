@@ -169,6 +169,9 @@ header > h1 {text-align: end; padding-right: 15px;}
     background-color:#D8DEE9 ;
 }
 
+header a {text-decoration: none;}
+header a:visited {color:black;}
+
 header{border-bottom: 3px solid black;}
 
 .bio-img{box-shadow: 00 15px 10px rgba(0,0,0, .25);;}
