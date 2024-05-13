@@ -184,6 +184,8 @@ footer {
     border-top: 3px solid black;
 }
 
+footer h4 {text-align: center;}
+
 /* #region Debug Styles */
 html{background-color:#383d46;}
 body{background-color: blue;}
