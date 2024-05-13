@@ -169,15 +169,17 @@ header > h1 {text-align: end; padding-right: 15px;}
     background-color:#D8DEE9 ;
 }
 
-header a {text-decoration: none;}
+header a {text-decoration: none; color:black;} 
 header a:visited {color:black;}
+
 
 header{border-bottom: 3px solid black;}
 
 .bio-img{box-shadow: 00 15px 10px rgba(0,0,0, .25);;}
 
 .project-img:hover{background-color:#D8DEE9 }
-.project a:first-child:visited{color: black;} 
+.project a:first-child:visited{color: black;}
+.project a:first-child{color:black;} 
 .project a:visited{color:grey;}
 
 footer {
