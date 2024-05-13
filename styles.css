@@ -72,6 +72,8 @@
   }
   
 /*#endregion */
+
+/* #region Layout */
 .grid-page {
     min-height: 100dvh;
     display:grid;
@@ -81,21 +83,16 @@
 .grid-content{
     display:grid; 
     grid-template-columns: 20% 1fr 20%; 
-    /* grid-template-rows: repeat(12,1fr);  */
     grid-gap:15px;
     clear:left;}
 
-.grid-sidebar{
-    display:grid;
-    /* grid-template-rows: repeat(12,1fr); */
-}
+.grid-sidebar{display:grid;}
 
 .grid-main-content{
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap:10px;
     row-gap: 20px;
-    
 }
 
 .bio{
@@ -105,9 +102,7 @@
     grid-column: 1/span 2;
 }
 
-.bio-img{
-     width: 150px; height: 150px; border-radius: 50%; margin:auto;
-}
+.bio-img {width: 150px; height: 150px; border-radius: 50%; margin:auto;}
 
 .project-img{
     display:flex;
@@ -121,11 +116,12 @@
     margin-bottom: 5px;
 }
 
-
 .project-icon{font-size: 5em;}
+
 .nav-icon{font-size: 2em;}
 .nav-button{
-    display:flex;    align-items: center;
+    display:flex;    
+    align-items: center;
     justify-content: center;
     padding-left: 10px;
 }
@@ -134,10 +130,7 @@ p{margin:15px;}
 
 
 
-header{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-}
+header {display:grid; grid-template-columns: 1fr 1fr;}
 
 
 header > div {
@@ -150,13 +143,10 @@ header > div {
 
 header > h1 {text-align: end; padding-right: 15px;}
 
+/* #endregion */
 
-
-/* Styles */
-.grid-content{}
+/* #region Styles */
 .grid-main-content{box-shadow: 00 25px 10px rgba(0,0,0, .25);}
-.grid-page{}
-.grid-sidebar{}
 .project-img{
     box-shadow: 00 10px 10px rgba(0,0,0, .25);
     border-radius: 5px;
@@ -187,26 +177,20 @@ header{border-bottom: 3px solid black;}
 .project a:visited{color:rgb(63, 63, 63);}
 
 
-footer {
-    border-top: 3px solid black;
-}
+footer {border-top: 3px solid black;}
 
 footer h4 {text-align: center;}
 
-/* #region Debug Styles */
 html{background-color:#383d46;}
-body{background-color: blue;}
 .bio{background-color: #E5E9F0;}
-/* .bio-img{background-color: pink;} */
-.grid-page{background-color: aqua;}
 .grid-content{background-color:#D8DEE9;}
 .grid-main-content{background-color: #E5E9F0;}
-/* .project-img{background-color: pink;} */
-/* .nav-button{background-color: peru;} */
+
+
 header{background-color: #ECEFF4;}
 footer{background-color: #ECEFF4;}
-/* #endregion */
 
+/* #endregion */
 
 @media (max-width: 990px){
 .nav-button{box-shadow: none; height: 100%;}
